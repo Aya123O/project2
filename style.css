@@ -1,0 +1,482 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 18px;
+  }
+  body {
+    font-family: "Cairo", sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .parent {
+    width: 1400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    .overlay{
+        position: absolute;
+        left:0;
+        top: 0;
+        width: 100%;
+        height:100%;
+        background-color: rgba(0, 0, 0, 60%);
+    }
+    .header{
+        background-color: black;
+        color: white;
+        height: 60px;
+        padding: 8px;
+    }
+    .logo{
+        float: left;
+        width: 30%;
+
+
+    }
+    .top{
+
+        float: right;
+        width: 60%;
+        margin-top:8px ;
+        font-weight: 300px;
+        font-size: 1rem;
+
+    }
+    ul li {
+        display: inline-block;
+        text-transform: uppercase;
+        margin-right: 20px;
+
+
+
+    }
+    ul li:hover{
+        background-color: #fefae0;
+        color: #000;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .clear{
+        clear: both;
+    }
+    .section2{
+        position: relative;
+        background-image: url("Images/header-bg.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    .section{
+        float: left;
+        color: white;
+        position: relative;
+        z-index: 555;
+        width: 57%;
+        top: 40%;
+        left: 10%;
+    }
+    .section h4 {
+        text-transform: capitalize;
+        font-size: 1rem;
+        margin-bottom: 15px;
+
+    }
+    .section h2 {
+        text-transform: capitalize;
+        font-size: 3rem;
+        margin-bottom: 15px;
+    }
+    .section p {
+        line-height: 1.5;
+    }
+    .bttn{
+        border: none;
+        padding: 8px;
+        text-align: center;
+        background-color: orange;
+        width: 130px;
+        height: 40px;
+        margin-top: 15px;
+        color: white;
+        border-radius: 8px;
+        text-transform: capitalize;
+    }
+    .bttn:hover {
+        cursor: pointer;
+        background-color:#f4a261 ;
+    }
+    .form {
+        float: right;
+        width: 30%;
+        position: relative;
+        z-index: 555;
+        top:60px;
+        right: 5px;
+        background-color: #0000002e;
+        padding: 50px;
+        border: 1px solid white;
+        text-align: center;
+        margin-right: 40px;
+    }
+    .form h2{
+        color: white;
+        margin-bottom: 20px;
+        font-size: 1.3rem;
+    }
+
+    .form input[type=text],input[type=email],input[type=number],.form #cars{
+        width: 90%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+    }
+    .form ::placeholder,.op1,.op2{
+        color: #ccc;
+    }
+    #car1,#car2,.form input[type=datetime]{
+        width: 43%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+    }
+    .form input[type=submit]{
+        width: 90%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: orange;
+        color: white;
+        text-align: center;
+        border: none;
+
+    }
+.section3 .title ,.blog .title {
+    text-align: center;
+    margin-top: 60px;
+}
+.section5 .title , .blog .title{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.section3 .title h2 ,.section5 .title h2,.blog .title h2{text-transform: uppercase;
+margin-bottom: 15px;}
+.section3 .title h4 ,.section5 .title h4,.blog .title h4
+{
+    color: #ccc;
+    margin-bottom: 20px;
+}
+.one{
+    background-color: #eee;
+    float: left;
+    width: 30%;
+    padding: 20px;
+    border-radius: 8px;
+    margin-right: 4%;
+}
+.two{
+    background-color: #eee;
+    float: left;
+    width: 30%;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 3%;
+}
+.last{
+    background-color: #eee;
+    float: right;
+    width: 30%;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 3%;
+}
+.section3 p{
+    line-height: 1.8;
+    color: #ccc;
+}
+.section3 h3{
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+i{
+    color: gray;
+}
+.section4{
+    margin-top: 60px;
+}
+.section4 img{
+    float: left;
+    width: 45%;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.section4 .about{
+    float: right;
+    width: 50%;
+    padding: 60px;
+
+
+}
+.section4 .about h2{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.section4 .about p{
+    color: #ccc;
+    line-height: 1.9;
+    text-align: justify;
+}
+.section5{
+    margin-top: 60px;
+    position: relative;
+}
+.section5 img{
+    float: right;
+    width: 40%;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.section5 .about{
+    float: left;
+    width: 52%;
+    text-align: justify;
+    padding: 20px;
+}
+.section5 .about h2{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    color: #023e8a;
+}
+.section5 .about h4{
+    color: gray;
+    margin-top: 5px;
+}
+.section5 .about p{
+    color: #ccc;
+    line-height: 1.9;
+    text-align: justify;
+}
+.bttns{
+    border: none;
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.825);
+    width: 180px;
+    height: 40px;
+    margin-top: 15px;
+    color: white;
+    border-radius: 8px;
+    text-transform: capitalize;
+}
+.bttns:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+.section5 span{
+    display: inline-block;
+    color: #03045e;
+    font:3rem sans-serif;
+    position: absolute;
+    right: 45%;
+    top: 90px;
+
+}
+small{
+    font-size: 0.8rem;
+}
+.lists{
+   text-align: center;
+}
+.lists span{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: 1px solid white;
+    background-color: gray;
+}
+.lists span.active{
+    background-color: orange;
+}
+.support{
+    margin-top: 60px;
+    background-image: url("Images/callaction-bg.jpg");
+    background-size:cover ;
+    width: 100%;
+    height: 350px;
+    padding: 30px;
+    position: relative;
+}
+.support .text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+}
+.support .text h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.support .text p{
+    line-height: 1.5;
+}
+.support .text .btton{
+    text-align: center;
+    width: 240px;
+    height: 50px;
+    border: 2px solid orange;
+    padding: 10px;
+    text-transform: capitalize;
+    margin: 15px auto;
+    color: #f4a261;
+
+}
+.blog1{
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+.blog1 img,.blog2 img,.blog3 img,.blog4 img{
+    width: 240px;
+    height: 180px;
+}
+.blog1 h3,.blog2 h3,.blog3 h3,.blog4 h3{
+   background-color: #000;
+   color: #ccc;
+   padding: 5px;
+   margin-bottom: 8px;
+   width: fit-content;
+}
+.blog1 h4,.blo2 h4,.blog3 h4,.blog4 h4{
+
+   margin-bottom: 8px;
+}
+.blog1 p,.blog2 p,.blog3 p,.blog4 p{
+   line-height: 1.8;
+   color: rgb(164, 160, 160);
+}
+.ico1{
+
+    float: left;
+}
+.ico2{
+    float: right;
+}
+.fa-comment{
+
+    font-size: 18px;
+    color: #edede9;
+}
+.fa-heart{
+
+    font-size: 18px;
+    color: #edede9;
+}
+.blog1 span,.blog2 span,.blog3 span,.blog4 span{
+
+    font-size: 10px;
+    color: #ccc;
+}
+.blog2{
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+.blog3{
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+.blog4{
+    float:left;
+    width: 25%;
+    padding: 15px;
+}
+.foot{
+    margin-top: 60px;
+    background-color: #020231;
+    color: white;
+    padding: 80px;
+    height: 310px;
+    border-radius: 5px;
+
+}
+.foot h3{
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+.foot h4 {
+    color: #cccb;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+.foot1{
+    float: left;
+    width: 20%;
+}
+.foot4 i{
+    color: white;
+
+    margin-left: 10px;
+}
+
+.foot2{
+    float: left;
+    width: 20%;
+
+}
+.foot3{
+    float: left;
+    width: 20%;
+
+}
+
+.foot4{
+    float: left;
+    width: 20%;
+
+}
+.myforms{
+    float: left;
+}
+
+.myforms input[type=text]{
+    border: none;
+    padding: 10px;
+    margin-right: 0;
+
+}
+.forms i{
+    float: left;
+    background-color: orange;
+    padding: 9px;
+    color: white;
+}
+.copy{
+    margin-top: 20px;
+    color: #ccc;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+}
